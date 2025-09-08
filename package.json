@@ -1,6 +1,6 @@
 {
   "name": "@pulsar-edit/get-scrollbar-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve the current style of scrollbar in macOS (overlay or legacy)",
   "main": "index.js",
   "repository": {
