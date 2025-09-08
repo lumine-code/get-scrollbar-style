@@ -16,8 +16,14 @@
   },
   "author": "Pulsar-Edit",
   "license": "MIT",
-  "devDependencies": {
-    "jasmine": "^5.3.0",
+  "files": [
+    "src/",
+    "binding.gyp"
+  ],
+  "dependencies": {
     "node-addon-api": "^6.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^5.3.0"
   }
 }
