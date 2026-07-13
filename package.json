@@ -30,7 +30,7 @@
     "node-addon-api": "^8.9.0"
   },
   "devDependencies": {
-    "jasmine": "^5.10.0",
+    "jasmine": "^6.3.0",
     "node-gyp": "12.4.0"
   }
 }
