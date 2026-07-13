@@ -1,12 +1,11 @@
 {
-  "name": "@pulsar-edit/get-scrollbar-style",
-  "version": "1.0.1",
-  "description": "Retrieve the current style of scrollbar in macOS (overlay or legacy)",
+  "name": "@lumine-code/get-scrollbar-style",
+  "version": "2.0.0",
+  "description": "Retrieves the current scrollbar style on macOS with consistent fallbacks on Windows and Linux.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pulsar-edit/get-scrollbar-style.git"
-  },
+  "repository": "https://github.com/lumine-code/get-scrollbar-style",
+  "bugs": "https://github.com/lumine-code/get-scrollbar-style/issues",
+  "homepage": "https://github.com/lumine-code/get-scrollbar-style/",
   "keywords": [
     "macos",
     "scrollbar"
@@ -14,16 +13,24 @@
   "scripts": {
     "test": "jasmine"
   },
-  "author": "Pulsar-Edit",
+  "author": "lumine-code",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "files": [
+    "index.js",
     "src/",
     "binding.gyp"
   ],
   "dependencies": {
-    "node-addon-api": "^6.1.0"
+    "node-addon-api": "^8.9.0"
   },
   "devDependencies": {
-    "jasmine": "^5.3.0"
+    "jasmine": "^5.10.0",
+    "node-gyp": "12.4.0"
   }
 }

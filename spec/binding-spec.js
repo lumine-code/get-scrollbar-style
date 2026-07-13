@@ -2,7 +2,7 @@ const getScrollbarStyle = require('../index.js');
 
 const POSSIBLE_VALUES = ['legacy'];
 if (process.platform === 'darwin') {
-  POSSIBLE_VALUES.push('overlay');
+  POSSIBLE_VALUES.push('overlay', 'unknown');
 }
 
 describe("get-scrollbar-style", function() {
