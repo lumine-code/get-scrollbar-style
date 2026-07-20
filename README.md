@@ -2,6 +2,9 @@
 
 Retrieves the current scrollbar style on macOS with consistent fallbacks on Windows and Linux.
 
+> [!WARNING]
+> **This package is deprecated.** [Lumine](https://github.com/lumine-code/lumine) no longer depends on it — each window now measures its rendered scrollbar style directly, and change notifications come from Electron's `systemPreferences` API. This repository is archived and no longer maintained.
+
 ## Features
 
 - **Native macOS detection**: reads `NSScroller.preferredScrollerStyle` through an N-API addon.
